@@ -1,3 +1,6 @@
+rem RAR密码破解工具（仅限纯数字密码）
+rem 必须先安装WinRAR至默认位置
+
 REM============================================================ 
 @echo off
 title Rar Password Cracker
