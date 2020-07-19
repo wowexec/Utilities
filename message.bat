@@ -1,3 +1,6 @@
+//用于在局域网内发送弹窗。
+//版本：0.1（有更新的版本）
+
 @echo off
 set /p name=Content:
 set /p sip=IP Address:
