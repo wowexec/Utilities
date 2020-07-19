@@ -1,3 +1,6 @@
+//文件加密，以cmd命令形式使用。
+//cmd: key in.txt out.txt key123
+
 #define TRUE 1
 #define FALSE 0
 
