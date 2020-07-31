@@ -1,0 +1,13 @@
+//用于 Visual Basic 窗体置顶
+
+Private Declare Function SetWindowPos Lib "user32" (ByVal hwnd As Long, ByVal hWndInsertAfter As Long, ByVal x As Long, ByVal y As Long, ByVal cx As Long, ByVal cy As Long, ByVal wFlags As Long) As Long
+Private Const a& = -1
+Private Const b& = -2
+Private Const c& = &H1
+Private Const d& = &H2
+
+//取消置顶
+SetWindowPos Me.hwnd, b, 0, 0, 0, 0, c Or d
+
+//置顶
+SetWindowPos Me.hwnd, a, 0, 0, 0, 0, c Or d
